@@ -1,0 +1,24 @@
+.main-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.result-of-game {
+  background-color: rgb(255, 102, 0);
+  width: 200px;
+  height: 100px;
+  padding: 24px;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+}
+.result-of-game-heads-button {
+  width: 70px;
+  height: 50px;
+}
+.result-of-game-tails-button {
+  width: 70px;
+  height: 50px;
+}
