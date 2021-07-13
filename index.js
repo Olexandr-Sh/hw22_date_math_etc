@@ -1,5 +1,12 @@
+let arr = []
+while(arr.length < 8){
+  let randomnumber = Math.floor(Math.random()*100) + 1;
+  if(arr.indexOf(randomnumber) > -1) continue;
+  arr[arr.length] = randomnumber;
+}
+console.log(arr);
 
-let arr = [23, 34, 55, 3, 7, 14, 28, 1, 88, 73, 99];
+// let arr = [23, 34, 55, 3, 7, 14, 28, 1, 88, 73, 99];
 
 let evenNum = arr.filter(x => x % 2 === 0);
 console.log(evenNum);
@@ -67,3 +74,10 @@ resetBtn.addEventListener("click", () => {
   tails = 0;
   updateStats();
 })
+
+
+
+
+
+
+
