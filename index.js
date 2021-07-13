@@ -1,7 +1,6 @@
 let arr = []
 while(arr.length < 8){
   let randomnumber = Math.floor(Math.random()*100) + 1;
-  if(arr.indexOf(randomnumber) > -1) continue;
   arr[arr.length] = randomnumber;
 }
 console.log(arr);
